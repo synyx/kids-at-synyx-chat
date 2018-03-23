@@ -7,7 +7,7 @@ to pull all dependencies:
 npm install
 ```
 
-To start 
+To start the server run this command. It will start the chatserver on `http://localhost:3000` a dashboard available at `http://localhost:3000/dashboard.html`
 ```bash
 npm run start
 ```
