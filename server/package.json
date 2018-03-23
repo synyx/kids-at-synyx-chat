@@ -1,7 +1,7 @@
 {
-  "name": "socket-chat-example",
+  "name": "girls-day-2018-chat-server",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "This is a simple chatserver",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3"
