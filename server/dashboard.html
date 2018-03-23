@@ -12,6 +12,16 @@
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #eee; }
       #messages { margin-bottom: 40px }
+      .messageRow {
+        width: 100%;
+        overflow: hidden;
+      }
+      .messageField {
+        float:left;
+      }
+      .messageTimestamp {
+        float: right;
+      }
     </style>
   </head>
   <body>
@@ -25,12 +35,25 @@
       $(function () {
         var socket = io();
         $('form').submit(function(){
-          socket.emit('chat message', $('#m').val());
+          var messageObj = {
+            message: $('#m').val()
+          }
+          socket.emit('chat message', messageObj);
           $('#m').val('');
           return false;
         });
         socket.on('chat message', function(msg){
-          $('#messages').append($('<li>').text(msg));
+          var fullMessage = msg.user + ": " + msg.message;
+          var messageRow = `
+          <li class="messageRow">
+            <div class="messageField">
+              ${fullMessage}
+            </div>
+            <div class="messageTimestamp">
+              ${msg.timestamp}
+            </div>
+          </li>`
+          $('#messages').append(messageRow);
           window.scrollTo(0, document.body.scrollHeight);
         });
       });
