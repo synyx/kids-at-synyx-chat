@@ -15,7 +15,6 @@ socket.on('chat message', function (msg) {
 function senden() {
     var message = $('#message').val();
     if(message){
-        var socket = io("http://localhost:3000");
         socket.emit('chat message', {message: message});
     }
 }
