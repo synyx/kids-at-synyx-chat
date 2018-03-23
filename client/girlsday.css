@@ -26,20 +26,22 @@ img {
     margin: 0 auto;
 
 }
-
-form {
+.hidden {
+    display:none;
+}
+.chatInput {
     padding: 3px;
     bottom: 0;
     width: 100%;
 }
 
-form input {
+.chatInput input {
     padding: 10px;
     width: 90%;
     margin-right: .5%;
 }
 
-form button {
+.chatInput button {
     width: 9%;
     background: rgb(130, 224, 255);
     border: none;

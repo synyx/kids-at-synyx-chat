@@ -12,12 +12,18 @@
 
         <img alt="Html example" src="GirlsDayLogo.jpg"/>
 
-        <form action="">
-            <input id="m" autocomplete="off"/>
-            <button>Send</button>
-        </form>
+        <h2>Girls Day Messenger</h2>
 
-        <ul id="messages"></ul>
+        <div class="chatInput">
+            <input id="message" autocomplete="off"/>
+            <button onclick="senden()">Send</button>
+        </div>
+
+        <ul id="messages">
+            <li id="muster" class="hidden">
+                <div id="messageBody"></div>
+            </li>
+        </ul>
 
 
 </body>
