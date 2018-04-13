@@ -17,4 +17,5 @@ function senden() {
     if(message){
         socket.emit('chat message', {message: message});
     }
+    $('#message').val('');
 }
