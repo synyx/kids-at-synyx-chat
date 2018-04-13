@@ -19,3 +19,10 @@ function senden() {
     }
     $('#message').val('');
 }
+
+$(document).ready(function (e) {
+    $('#message').emojiPicker({
+        width: '200px',
+        height: '200px'
+    });
+});
