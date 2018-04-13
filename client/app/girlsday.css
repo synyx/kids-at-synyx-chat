@@ -41,6 +41,8 @@ img {
     margin-right: .5%;
 }
 
+.chatInput button:hover {background-color: #3e8e41;}
+
 .chatInput button {
     width: 9%;
     background: rgb(130, 224, 255);
