@@ -52,6 +52,8 @@ img {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: auto;
+    height: 450px;
 }
 
 #messages li {
