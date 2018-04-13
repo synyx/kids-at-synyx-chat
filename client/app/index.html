@@ -1,21 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
+    <title>GirlsDay chat</title>
+    <link rel="stylesheet" href="girlsday.css">
+
     <script src="js/socket.js"></script>
     <script src="js/push.min.js"></script>
     <script src="js/jquery.js"></script>
+
+    <!-- Emoji Picker -->
     <link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.a.css">
     <script type="text/javascript" src="js/jquery.emojis.js"></script>
     <link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.css">
     <script type="text/javascript" src="js/jquery.emojipicker.js"></script>
     <script src="js/girlsday.js"></script>
-    
-    <title></title>
 
 </head>
 <body>
-    
-    
-    
+
+        <img alt="Html example" src="banner/wald.svg"/>
+
+        <h2>Girls Day Messenger</h2>
+
+        <div class="chatInput">
+            <input type="text" placeholder="User" id="user" width="20">
+            <input id="message" autocomplete="off"/>
+            <button onclick="senden()">Send</button>
+        </div>
+
+        <ul id="messages">
+            <li id="muster" class="hidden">
+                <img id="messageAvatar" src="avatare/girl-1.svg">
+                <div id="messageUser"></div>
+                <div id="messageBody"></div>
+            </li>
+        </ul>
+
 </body>
 </html>
