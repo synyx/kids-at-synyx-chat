@@ -23,8 +23,9 @@ socket.on('chat message', function (msg) {
 
 function senden() {
     var message = $('#message').val();
+    var user = $('#user').val();
     if(message){
-        socket.emit('chat message', {message: message});
+        socket.emit('chat message', {message: message, user: user});
     }
     $('#message').val('');
 }
