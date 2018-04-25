@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000");
+var socket = io("https://girlsday.synyx.coffee");
 
 
 socket.on('chat message', function (msg) {
