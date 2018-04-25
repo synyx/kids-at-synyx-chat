@@ -29,4 +29,5 @@ function getFormattedDate() {
 
 http.listen(port, function(){
   console.log('listening on *:' + port);
+  console.log('check out the dashboard of the chat server in your browser at http://localhost:' + port + '/dashboard');
 });

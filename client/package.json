@@ -4,14 +4,9 @@
   "description": "Girlsday-Frontend",
   "dependencies": {
     "easy-livereload": "^1.3.1",
-    "express": "^4.15.2",
-    "jquery": "^3.3.1",
-    "push.js": "^1.0.5",
-    "jquery-emoji-picker": "^0.2.2",
-    "socket.io-client": "^2.0.4"
+    "express": "^4.15.2"
   },
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "cp node_modules/socket.io-client/dist/socket.io.slim.js app/socket.js && cp node_modules/jquery/dist/jquery.min.js app/jquery.js"
+    "start": "node app.js"
   }
 }
