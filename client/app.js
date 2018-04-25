@@ -7,7 +7,7 @@ app.use(express.static('app'));
 
 http.listen(port, function(){
     console.log('listening on *:' + port);
-    console.log('check out the client at http://localhost:' + port );
+    console.log('check out the client in your browse at http://localhost:' + port );
 });
 
 app.use(require('easy-livereload')());
