@@ -2,5 +2,3 @@
 .idea/
 package-lock.json
 .DS_Store
-client/app/socket.js
-client/app/jquery.js
