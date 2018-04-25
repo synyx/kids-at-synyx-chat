@@ -7,17 +7,17 @@
 
 ## Ausführen (Windows)
 1. Den Chat Server starten:
-  1. Doppel Klick auf die Datei `startServerWindows` um sie Auszuführen
+  1. Doppel Klick auf die Datei `startServerWindows` um sie auszuführen
     * je nach Einstellung von Windows kann die Datei auch `startServerWindows.bat` heißen
   1. Eine [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) wird sich öffnen und den Chat-Server lokal starten
   1. Das Dashboard vom Chat-Server im Browser öffnen: [http://localhost:3000/dashboard](http://localhost:3000/dashboard)
 1. Client Anwendung starten:
-  1. Doppel Klick auf die Datei `startClientWindows` um sie Auszuführen
+  1. Doppel Klick auf die Datei `startClientWindows` um sie auszuführen
     * je nach Einstellung von Windows kann die Datei auch `startClientWindows.bat` heißen
   1. Eine [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) wird sich öffnen und den Server für den Client lokal starten
   1. Den Client im Browser öffnen: [http://localhost:8080](http://localhost:8080)
 
-## Ausführen (Linux/OSX)
+## Ausführen (Linux/Mac OSX)
   1. Den Chat Server starten:
     1. Ein Terminal öffnen
     1. Sich mit `cd` in dieses Verzeichnis begeben
