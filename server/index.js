@@ -29,4 +29,5 @@ function getFormattedDate() {
 
 http.listen(port, function(){
   console.log('listening on *:' + port);
+  console.log('check out the dashboard at http://localhost:' + port + '/dashboard');
 });
