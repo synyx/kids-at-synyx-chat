@@ -25,7 +25,7 @@
         <div class="chatInput">
             <input type="text" placeholder="User" id="user" width="20">
             <input id="message" autocomplete="off"/>
-            <button onclick="senden()">Send</button>
+            <button id="sendButton" onclick="senden()">Send</button>
         </div>
 
         <ul id="messages">
@@ -35,6 +35,17 @@
                 <div id="messageBody"></div>
             </li>
         </ul>
+
+        <script>
+            var input = document.getElementById("message");
+
+            input.addEventListener("keyup", function(event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    document.getElementById("sendButton").click();
+                }
+            });
+        </script>
 
 </body>
 </html>
