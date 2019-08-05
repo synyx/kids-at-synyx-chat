@@ -1,4 +1,4 @@
-# GirlsDay 2018 -  Chat Anwendung
+# Chat Anwendung
 
 ## Vorraussetzungen
 1. `Node` und `npm` installiert ==> [Download](https://nodejs.org/de/)

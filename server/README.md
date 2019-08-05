@@ -1,4 +1,4 @@
-# Girls Day 2018 Chat-Server
+# Chat-Server
 
 ## How to run it
 to pull all dependencies:
