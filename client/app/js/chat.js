@@ -2,7 +2,7 @@ var socket = io("http://apollon.synyx.coffee:3000");
 
 
 socket.on('chat message', function (msg) {
-    Push.create("Girlsday Chat!", {
+    Push.create("Science Camp Informatik  Chat!", {
         body: msg.message,
         icon: '/cat.png',
         timeout: 4000,

@@ -1,4 +1,4 @@
-# Girls Day 2018 Chat-Client
+# Chat-Client
 
 ## How to run it
 to pull all dependencies:
@@ -13,4 +13,4 @@ npm run start
 ```
 
 The master branch contains all the files necessary for the workshop to begin.
-The branch "solution" contains a possible solution for the girls day messenger.
+The branch "solution" contains a possible solution for the messenger.
