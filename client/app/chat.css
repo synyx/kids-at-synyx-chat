@@ -1,0 +1,14 @@
+img{max-width: 100%}
+html{background: orange}
+h1{font-size: 80px; font-family: "Apple Chancery"}
+body{width: 50%; margin: 0 auto;}
+.chatinput{height: 50px}
+.chatinput input{ height: 50px; width: 250px; font-size: 25px}
+.chatinput button{height: 35px; width: 75px; background: white}
+.chatinput #user{height: 25px; width: 50px}
+#pfote{height: 30px; width: 30px}
+#messages{list-style-type: none;}
+#messages li * {display: inline; margin:5px}
+#messages li:nth-child(odd){background: darkorange}
+button:hover{background: forestgreen}
+.scroll{height: 200px; overflow-y: scroll; background: orange}
