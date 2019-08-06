@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="js/socket.js"></script>
     <script src="js/push.min.js"></script>
@@ -9,13 +10,30 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.css">
     <script type="text/javascript" src="js/jquery.emojipicker.js"></script>
     <script src="js/chat.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stile.css">
 
     <title></title>
 
 </head>
+
 <body>
-    
-    
-    
+
+    <h1>SC-Chat</h1>
+    <ul id="messages">
+        <li id="muster"class="hidden">
+            <div id="messageUser"></div>
+            <div id="messageBody">test</div>
+        </li>
+    </ul>
+
+
+
+    <div class="chatInput">
+        <input id="user" placeholder="user"value="Annika+Maria"/>
+        <input id="message" placeholder="Nachricht eingeben"/>
+        <button onclick="senden()">Senden</button>
+    </div>
+
 </body>
+
 </html>
