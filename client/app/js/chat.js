@@ -1,4 +1,4 @@
-var socket = io("http://10.0.11.74:3000");
+var socket = io("http://localhost:3000");
 
 
 socket.on('chat message', function (msg) {
