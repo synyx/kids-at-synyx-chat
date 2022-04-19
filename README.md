@@ -1,4 +1,4 @@
-# Chat Anwendung
+# GirlsDay 2022 -  Chat Anwendung
 
 ## Vorraussetzungen
 1. `Node` und `npm` installiert ==> [Download](https://nodejs.org/de/)

@@ -1,7 +1,7 @@
 {
-  "name": "chat-server",
+  "name": "girls-day-2022-chat-server",
   "version": "0.0.1",
-  "description": "This is a simple chat server",
+  "description": "This is a simple chatserver",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3"
