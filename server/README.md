@@ -1,4 +1,4 @@
-# Girls Day 2022 Chat-Server
+# Girls Day 2023 Chat-Server
 
 ## How to run it
 to pull all dependencies:
