@@ -6,7 +6,7 @@ Eine Hilfe findest du [hier][cheatsheet].
 Wenn der Server auf einem anderen Rechner ist, ändere die IP in der ersten Zeile von [client/public/js/chat.js][chat.js]
 
 ## Voraussetzungen
-1. `Node` und `npm` installiert ==> [Download](nodejs)
+1. `Node` und `npm` installiert ==> [Download][nodejs]
    1. Getestet mit node 18.12.0 und npm 8.9.12
 2. Ein TextEditor (z.B. [Atom][atom] oder Editor)
 3. Ein Browser (z.B. Firefox, Google Chrome, Microsoft Edge,...)
